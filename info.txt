@@ -1,0 +1,7 @@
+Based on 2 tutorials:
+
+Rust By Example:
+https://doc.rust-lang.org/rust-by-example/hello/print.html
+
+Pluralsight: "Rust Fundamentals":
+https://app.pluralsight.com/library/courses/rust-fundamentals/table-of-contents
