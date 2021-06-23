@@ -1,3 +1,10 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+#![allow(unused_must_use)]
+
+mod stack_and_heap;
+mod control_flow;
+
 use std::fmt; // import 'fmt'
 
 // This is a comment in the Rust :D
@@ -224,5 +231,6 @@ fn constants () {
 
 
 fn main() {
-    constants();
+    // stack_and_heap::stack_and_heap();
+    control_flow::if_statement();
 }
