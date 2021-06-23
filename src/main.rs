@@ -80,7 +80,7 @@ impl fmt::Display for List {
     }
 }
 
-fn main() {
+fn formatted_print() {
     // You can manipulate expressions more easily with block comments
     // than with line comments. Try deleting the comment delimiters
     // to change the result:
@@ -157,7 +157,59 @@ fn main() {
 }
 
 
+fn operators () {
+
+    // arithmetic
+    let mut a = 2 + 3 * 4;
+    println!( "{}", a );
+    a += 2;
+    a -= 1;
+
+    println!( "remainder of {} / {} = {}", a, 3, ( a % 3 ) );
+
+    let a_cubed = i32::pow( a, 3 );
+    println!( "{} cubed is {}", a, a_cubed );
+
+    let b = 2.5;
+    let b_cubed = f64::powi( b, 3 );
+    let b_to_pi = f64::powf( b, std::f64::consts::PI );
+    println!( "{} cubed = {},  {}^pi = {}", b, b_cubed, b, b_to_pi );
+
+
+    // bitwise
+    let c = 1 | 2; // | OR & AND ^ XOR ! NOR
+    println!( "1|2 = {}", c );
+
+    let two_to_10 = 1 << 10;
+    println!( "2^10 = {}", two_to_10);
+
+
+    // logical ( < > <= >= ==)
+    let pi_less_4 = std::f64::consts::PI < 4.0; // true
+    println!( "pi_less_4 is: {}", pi_less_4 );
+
+    let x = 5;
+    let x_is_5 = x == 5;
+    println!( "x_is_5 is: {}", x_is_5 );
+
+}
+
+fn scope_and_shadowing() {
+    let a = 12;
+    let a = 123; // override previous "a"... omg it's possible... fuck! :((((
+
+    {
+        let b = 456;
+        let a = 987;
+        println!( "inside, b = {}", b );
+        println!( "inside, a = {}", a );
+    }
+
+    println!( "outside, a = {}", a );
+}
+
+
 
 fn main() {
-    pass
+    scope_and_shadowing()
 }
