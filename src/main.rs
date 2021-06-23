@@ -209,7 +209,20 @@ fn scope_and_shadowing() {
 }
 
 
+const MEANING_OF_LIFE:u8 = 42; // no fixed address (!!!preferable!!! way to use constants!!!)
+
+// this constant has the memory address. Can be mutable in "unsafe" mode
+static mut ANOTHER_CONSTANT:i32 = 4321;
+fn constants () {
+    println!( "{}", MEANING_OF_LIFE );
+    unsafe {
+        println!( "{}", ANOTHER_CONSTANT );
+        ANOTHER_CONSTANT = 6790;
+        println!( "{}", ANOTHER_CONSTANT );
+    }
+}
+
 
 fn main() {
-    scope_and_shadowing()
+    constants();
 }
