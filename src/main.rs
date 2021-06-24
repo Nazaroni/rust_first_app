@@ -4,6 +4,7 @@
 
 mod stack_and_heap;
 mod control_flow;
+mod while_and_loop;
 
 use std::fmt; // import 'fmt'
 
@@ -232,5 +233,6 @@ fn constants () {
 
 fn main() {
     // stack_and_heap::stack_and_heap();
-    control_flow::if_statement();
+    // control_flow::if_statement();
+    while_and_loop::while_and_loop();
 }
