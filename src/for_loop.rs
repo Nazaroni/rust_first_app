@@ -1,5 +1,5 @@
 pub fn for_loop() {
-    for x in 0..11 {
+    for x in 0..11 {    // include first value but not include the last
         if x == 3 || x == 5 { continue; }
         if x == 8 { break; }
         println!( "x = {}", x );
