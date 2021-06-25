@@ -7,6 +7,8 @@ mod control_flow;
 mod while_and_loop;
 mod for_loop;
 mod match_statement;
+mod structures;
+mod enumerations;
 
 use std::fmt; // import 'fmt'
 
@@ -238,5 +240,7 @@ fn main() {
     // control_flow::if_statement();
     // while_and_loop::while_and_loop();
     // for_loop::for_loop();
-    match_statement::match_statement();
+    // match_statement::match_statement();
+    // structures::structures();
+    enumerations::enumerations();
 }
