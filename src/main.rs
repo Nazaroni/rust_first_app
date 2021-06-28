@@ -10,6 +10,7 @@ mod match_statement;
 mod structures;
 mod enumerations;
 mod option;
+mod arrays;
 
 use std::fmt; // import 'fmt'
 
@@ -244,5 +245,6 @@ fn main() {
     // match_statement::match_statement();
     // structures::structures();
     // enumerations::enumerations();
-    option::option();
+    // option::option();
+    arrays::arrays();
 }
