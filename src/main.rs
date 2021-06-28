@@ -11,6 +11,7 @@ mod structures;
 mod enumerations;
 mod option;
 mod arrays;
+mod vectors;
 
 use std::fmt; // import 'fmt'
 
@@ -246,5 +247,6 @@ fn main() {
     // structures::structures();
     // enumerations::enumerations();
     // option::option();
-    arrays::arrays();
+    // arrays::arrays();
+    vectors::vectors();
 }
