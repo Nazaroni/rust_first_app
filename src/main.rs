@@ -13,6 +13,7 @@ mod option;
 mod arrays;
 mod vectors;
 mod slices;
+mod strings;
 
 use std::fmt; // import 'fmt'
 
@@ -250,5 +251,6 @@ fn main() {
     // option::option();
     // arrays::arrays();
     // vectors::vectors();
-    slices::slices();
+    // slices::slices();
+    strings::strings();
 }
