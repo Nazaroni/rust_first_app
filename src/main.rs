@@ -12,6 +12,7 @@ mod enumerations;
 mod option;
 mod arrays;
 mod vectors;
+mod slices;
 
 use std::fmt; // import 'fmt'
 
@@ -248,5 +249,6 @@ fn main() {
     // enumerations::enumerations();
     // option::option();
     // arrays::arrays();
-    vectors::vectors();
+    // vectors::vectors();
+    slices::slices();
 }
