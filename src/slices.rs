@@ -1,5 +1,6 @@
 pub fn slices() {
 
+    // Slices can modify Array in Rust
     fn use_slice( slice: &mut[ i32 ] ) {
         println!( "First element = {}, len = {}", slice[ 0 ], slice.len() );
         slice[ 0 ] = 43221;
