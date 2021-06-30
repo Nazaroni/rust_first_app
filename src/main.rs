@@ -14,6 +14,7 @@ mod arrays;
 mod vectors;
 mod slices;
 mod strings;
+mod tuples;
 
 use std::fmt; // import 'fmt'
 
@@ -252,5 +253,7 @@ fn main() {
     // arrays::arrays();
     // vectors::vectors();
     // slices::slices();
-    strings::strings();
+    // strings::strings();
+    tuples::tuples();
 }
+
