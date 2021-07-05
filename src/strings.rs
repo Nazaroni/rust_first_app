@@ -37,7 +37,7 @@ pub fn strings() {
     // let y = letters + &letters;
     // println!( "{}", y );
 
-    let mut abc = String::from("Hoppla!" );
+    let abc = String::from("Hoppla!" );
     println!( "{}", abc );
 
     let mut def = "Hopla shmopla".to_string();

@@ -5,7 +5,7 @@ pub fn match_statement() {
         44 => "UK",
         46 => "Sweden",
         38 => "Ukraine",
-        1...999 => "unknown",   // ... meaning include first and last values (both)
+        1..=999 => "unknown",   // ... meaning include first and last values (both)
         _ => "invalid"          // _ meaning - the rest...
     };
 
