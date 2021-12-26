@@ -92,7 +92,7 @@ pub fn formatted_print() {
 
     // You can right-align text with a specified width. This will output
     // "     1". 5 white spaces and a "1".
-    println!("{number:>width$}Oo{number2:>width2$}", number=1, width=2, number2=3, width2=3);
+    println!("{number:>width$} some text {number2:>width2$}", number=11, width=5, number2=44, width2=5);
 
     // You can pad numbers with extra zeroes. This will output "000001".
     println!("{number:>0width$}", number=1, width=40);
