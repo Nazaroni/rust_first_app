@@ -18,6 +18,7 @@ mod tuples;
 mod formatted_print;
 mod scope_and_shadowing;
 mod debug;
+mod tmp;
 
 
 // This is a comment in the Rust :D
@@ -82,6 +83,7 @@ fn constants () {
 
 
 fn main() {
+    tmp::tmp();
     // stack_and_heap::stack_and_heap();
     // control_flow::if_statement();
     // while_and_loop::while_and_loop();
@@ -95,7 +97,7 @@ fn main() {
     // slices::slices();
     // strings::strings();
     // tuples::tuples();
-    formatted_print::formatted_print();
+    // formatted_print::formatted_print();
     // debug::debug();
 }
 
