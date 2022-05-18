@@ -2,6 +2,7 @@
 #![allow(unused_variables)]
 #![allow(unused_must_use)]
 
+mod tmp;
 mod stack_and_heap;
 mod control_flow;
 mod while_and_loop;
@@ -18,7 +19,7 @@ mod tuples;
 mod formatted_print;
 mod scope_and_shadowing;
 mod debug;
-mod tmp;
+mod data_types;
 
 
 // This is a comment in the Rust :D
@@ -83,7 +84,7 @@ fn constants () {
 
 
 fn main() {
-    tmp::tmp();
+    // tmp::tmp();
     // stack_and_heap::stack_and_heap();
     // control_flow::if_statement();
     // while_and_loop::while_and_loop();
@@ -99,5 +100,6 @@ fn main() {
     // tuples::tuples();
     // formatted_print::formatted_print();
     // debug::debug();
+    data_types::data_types();
 }
 
