@@ -97,9 +97,9 @@ fn main() {
     // vectors::vectors();
     // slices::slices();
     // strings::strings();
-    // tuples::tuples();
+    tuples::tuples();
     // formatted_print::formatted_print();
     // debug::debug();
-    data_types::data_types();
+    // data_types::data_types();
 }
 

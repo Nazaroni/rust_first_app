@@ -21,4 +21,11 @@ pub fn tuples() {
 
     println!( "The last element = {}", (combined.1).1 );
 
+    // https://docs.microsoft.com/en-us/learn/modules/rust-create-program/4-tuples-structs
+    // Tuple of length 3
+    let tuple_e = ('E', 1234567890i32, true);
+    println!( "tuple_e 0: {}", tuple_e.0 );
+    println!( "tuple_e 1: {}", tuple_e.1 );
+    println!( "tuple_e 2: {}", tuple_e.2 );
+
 }
