@@ -21,4 +21,6 @@ pub fn structures() {
               my_line.end.x,
               my_line.end.y );
 
+    // https://docs.microsoft.com/en-us/learn/modules/rust-create-program/4-tuples-structs
+
 }

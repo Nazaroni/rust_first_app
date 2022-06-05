@@ -90,14 +90,14 @@ fn main() {
     // while_and_loop::while_and_loop();
     // for_loop::for_loop();
     // match_statement::match_statement();
-    // structures::structures();
+    structures::structures();
     // enumerations::enumerations();
     // option::option();
     // arrays::arrays();
     // vectors::vectors();
     // slices::slices();
     // strings::strings();
-    tuples::tuples();
+    // tuples::tuples();
     // formatted_print::formatted_print();
     // debug::debug();
     // data_types::data_types();
