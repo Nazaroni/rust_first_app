@@ -20,6 +20,7 @@ mod formatted_print;
 mod scope_and_shadowing;
 mod debug;
 mod data_types;
+mod functions;
 
 
 // This is a comment in the Rust :D
@@ -91,7 +92,7 @@ fn main() {
     // for_loop::for_loop();
     // match_statement::match_statement();
     // structures::structures();
-    enumerations::enumerations();
+    // enumerations::enumerations();
     // option::option();
     // arrays::arrays();
     // vectors::vectors();
@@ -101,5 +102,6 @@ fn main() {
     // formatted_print::formatted_print();
     // debug::debug();
     // data_types::data_types();
+    functions::functions();
 }
 
