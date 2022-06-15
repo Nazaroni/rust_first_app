@@ -44,7 +44,7 @@ fn main() {
     // for_loop::for_loop();
     // match_statement::match_statement();
     // structures::structures();
-    // enumerations::enumerations();
+    enumerations::enumerations();
     // option::option();
     // arrays::arrays();
     // vectors::vectors();
