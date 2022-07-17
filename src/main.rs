@@ -44,9 +44,9 @@ fn main() {
     // for_loop::for_loop();
     // match_statement::match_statement();
     // structures::structures();
-    enumerations::enumerations();
+    // enumerations::enumerations();
     // option::option();
-    // arrays::arrays();
+    arrays::arrays();
     // vectors::vectors();
     // slices::slices();
     // strings::strings();
@@ -57,6 +57,6 @@ fn main() {
     // functions::functions();
     // operators_module::operators_module();
     // constants::constants();
-    home_work::hw_car_builder::hw_car_builder();
+    // home_work::hw_car_builder::hw_car_builder();
 }
 

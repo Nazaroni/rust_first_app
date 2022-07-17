@@ -17,6 +17,8 @@ pub fn arrays() {
     }
 
     let fill_by_one = [ 1u8; 10 ];
+    println!( "{:?}", fill_by_one );
+
     for i in 0..fill_by_one.len() {
         println!( "{}. {}", i, fill_by_one[ i ] );
     }
@@ -42,4 +44,19 @@ pub fn arrays() {
             }
         }
     }
+
+
+    // https://docs.microsoft.com/en-us/learn/modules/rust-if-else-expressions/1-arrays
+    // Days of the week
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    // Declare array, initialize all values to 0, length = 5
+    let bytes = [0; 5];
+    println!( "Print \"bytes\": {:?}", bytes );
+
+    // Get the first day of the week
+    let first = days[0];
+
+    // Get the second day of the week
+    let second = days[1];
 }
